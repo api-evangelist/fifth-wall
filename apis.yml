@@ -1,0 +1,83 @@
+aid: fifth-wall
+name: Fifth Wall
+description: >-
+  Fifth Wall is a venture capital firm founded in 2016 by Brendan F. Wallace and Brad Greiwe and
+  headquartered in Los Angeles, California, with additional offices in New York, San Francisco, and
+  London. It is the largest investment firm focused on technology for the built environment ("PropTech")
+  and real estate, investing across the venture and growth stages into companies that make buildings and
+  the physical world smarter, safer, more sustainable, and more energy efficient. The firm spans sub-themes
+  including proptech, construction technology, residential real estate, fintech for real estate, smart
+  buildings, logistics, and a dedicated climate/decarbonization strategy. Fifth Wall's distinctive model
+  pairs its portfolio companies with a network of roughly 115 strategic limited partners — major real estate
+  owner-operators such as CBRE, Hilton, Hines, Marriott, Public Storage, Related, and Starwood Capital — to
+  drive strategic partnerships and distribution. With over $3 billion in assets under management and nearly
+  170 portfolio companies, Fifth Wall has backed category leaders including Opendoor, Procore, ServiceTitan,
+  Blend, Hippo, SmartRent, and Bilt Rewards.
+image: https://www.fifthwall.com/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Growth Equity
+  - PropTech
+  - Real Estate Technology
+  - Construction Technology
+  - Climate
+  - Fintech
+  - Built Environment
+  - Los Angeles
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://www.fifthwall.com/
+  - type: Portfolio
+    url: https://www.fifthwall.com/portfolio
+  - type: Portfolio
+    url: portfolio/fifth-wall-portfolio.yml
+  - type: Team
+    url: https://www.fifthwall.com/team
+  - type: InvestmentThesis
+    url: https://www.fifthwall.com/about
+  - type: Blog
+    url: https://www.fifthwall.com/insights
+  - type: News
+    url: https://www.fifthwall.com/insights
+  - type: Pitch
+    url: https://www.fifthwall.com/contact
+  - type: Contact
+    url: https://www.fifthwall.com/contact
+  - type: Jobs
+    url: https://www.fifthwall.com/careers
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/fifth-wall-ventures-management
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/fifth-wall-ventures
+  - type: Twitter
+    url: https://x.com/fifthwallvc
+  - type: Features
+    data:
+      - "Stage: Venture, Growth"
+      - "Sectors: proptech, real estate technology, construction technology, climate/decarbonization, fintech, built environment"
+      - "Geography: Global (offices in Los Angeles, New York, San Francisco, London; portfolio across 20+ countries)"
+      - "AUM: over $3 billion"
+      - "Strategic LPs: ~115 real estate owner-operators (CBRE, Hilton, Hines, Marriott, Public Storage, Related, Starwood Capital)"
+      - "Portfolio: nearly 170 companies"
+      - "Founded: 2016"
+      - "HQ: Los Angeles, California, USA"
+    sources:
+      - https://www.fifthwall.com/about
+      - https://en.wikipedia.org/wiki/Fifth_Wall_(firm)
+      - https://www.prnewswire.com/news-releases/fifth-wall-closes-out-2025-with-30-investments-two-exits-and-new-capital-for-its-flagship-strategy-302674350.html
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Fifth Wall
+    url: https://www.fifthwall.com/
