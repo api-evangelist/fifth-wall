@@ -3,9 +3,9 @@ method: searched
 source: https://www.fifthwall.com/portfolio
 summary:
   portfolio_total: 46
-  in_network: 12
-  api_providers: 8
-  missing: 34
+  in_network: 46
+  api_providers: 10
+  missing: 0
   stubs_created: 0
 companies:
 - name: Aurora Solar
@@ -24,18 +24,20 @@ companies:
   sector: residential-real-estate
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: belong
+  slug: belong-home
+  matched_by: domain
 - name: Bilt Rewards
   url: https://www.biltrewards.com/
   description: Loyalty and rewards program that lets renters earn points on rent.
   sector: fintech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bilt-rewards
+  slug: bilt-rewards
+  matched_by: domain
 - name: BitGo
   url: https://www.bitgo.com/
   description: Digital asset custody, security, and settlement infrastructure.
@@ -52,9 +54,9 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.fifthwall.com/portfolio
-  slug: blend-mortgage
+  slug: blend-labs
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Blueprint Power
   url: https://www.blueprintpower.com/
@@ -62,36 +64,40 @@ companies:
   sector: clean-energy
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blueprint-power
+  slug: blueprint-power
+  matched_by: domain
 - name: Breezy
   url: https://www.breezy.com/
   description: Home-services and HVAC financing/subscription platform.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: breezy
+  slug: breezy
+  matched_by: domain
 - name: Brimstone
   url: https://www.brimstone.com/
   description: Carbon-negative process for making ordinary Portland cement.
   sector: climate
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brimstone
+  slug: brimstone
+  matched_by: domain
 - name: Built
   url: https://getbuilt.com/
   description: Construction finance and payment management software.
   sector: construction-tech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: built
+  slug: built
+  matched_by: domain
 - name: ClassPass
   url: https://classpass.com/
   description: Membership marketplace for fitness and wellness classes.
@@ -108,54 +114,60 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clikalia
+  slug: clikalia
+  matched_by: domain
 - name: Document Crunch
   url: https://www.documentcrunch.com/
   description: AI contract review for the construction industry.
   sector: construction-tech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: document-crunch
+  slug: document-crunch
+  matched_by: domain
 - name: Doma
   url: https://www.doma.com/
   description: Machine-intelligence title, escrow, and closing platform.
   sector: proptech
   status: acquired
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: doma
+  slug: doma
+  matched_by: domain
 - name: Duranta
   url: https://getduranta.com/
   description: Resident and property operations platform for multifamily.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: duranta
+  slug: duranta
+  matched_by: domain
 - name: Electric Hydrogen
   url: https://eh2.com/
   description: Electrolyzer manufacturer for low-cost green hydrogen.
   sector: climate
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: electric-hydrogen
+  slug: electric-hydrogen
+  matched_by: domain
 - name: Higharc
   url: https://www.higharc.com/
   description: Cloud homebuilding platform unifying design, sales, and construction.
   sector: construction-tech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: higharc
+  slug: higharc
+  matched_by: domain
 - name: Hippo
   url: https://myhippo.com/
   description: Home insurance built around proactive protection.
@@ -172,36 +184,40 @@ companies:
   sector: construction-tech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: homebound
+  slug: homebound
+  matched_by: domain
 - name: Huspy
   url: https://huspy.com/
   description: Digital mortgage and real estate platform in the Middle East and Europe.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: huspy
+  slug: huspy
+  matched_by: domain
 - name: Industrious
   url: https://www.industriousoffice.com/
   description: Premium flexible workplace and office space provider.
   sector: flex-office
   status: acquired
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: industrious
+  slug: industrious
+  matched_by: domain
 - name: Juniper Square
   url: https://www.junipersquare.com/
   description: Investment management software for private real estate.
   sector: fintech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: juniper-square
+  slug: junipersquare
+  matched_by: domain
 - name: Knock
   url: https://www.knockcrm.com/
   description: CRM and leasing automation for multifamily property managers.
@@ -218,9 +234,10 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lessen
+  slug: lessen
+  matched_by: domain
 - name: Lime
   url: https://www.limebike.com/
   description: Shared electric bike and scooter micromobility network.
@@ -237,36 +254,40 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loft
+  slug: loft
+  matched_by: domain
 - name: Loggi
   url: https://www.loggi.com/
   description: On-demand logistics and last-mile delivery network in Brazil.
   sector: logistics
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loggi
+  slug: loggi
+  matched_by: domain
 - name: Loop
   url: https://evloop.io/
   description: EV charging and fleet electrification platform.
   sector: mobility
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: loop
+  in_network: true
+  is_api_provider: true
+  slug: loop
+  matched_by: name-slug
 - name: Navigate
   url: https://www.navigate.ai/
   description: AI platform for real estate and the built environment.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: navigate
+  in_network: true
+  is_api_provider: true
+  slug: navigate
+  matched_by: domain
 - name: Neighbor
   url: https://www.neighbor.com/
   description: Peer-to-peer storage and parking marketplace.
@@ -283,18 +304,20 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: notarize
+  slug: notarize
+  matched_by: name-slug
 - name: One Raven
   url: https://oneraven.com/
   description: Data and technology platform for the built environment.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one-raven
+  slug: one-raven
+  matched_by: domain
 - name: Opendoor
   url: https://www.opendoor.com/
   description: Online platform to buy and sell homes directly (iBuyer).
@@ -311,9 +334,10 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pacaso
+  slug: pacaso
+  matched_by: domain
 - name: Procore
   url: https://www.procore.com/
   description: Construction management software platform.
@@ -330,45 +354,50 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: propmatic
+  slug: propmatic
+  matched_by: domain
 - name: Roadrunner
   url: https://www.roadrunnerwm.com/
   description: Technology-enabled waste and recycling management.
   sector: climate
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roadrunner
+  slug: roadrunner
+  matched_by: domain
 - name: Roam
   url: https://www.withroam.com/
   description: Platform for buying homes with assumable low-rate mortgages.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roam
+  slug: roam
+  matched_by: domain
 - name: Runwise
   url: https://www.runwise.com/
   description: Heating controls and energy optimization for buildings.
   sector: clean-energy
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: runwise
+  slug: runwise
+  matched_by: domain
 - name: Sekra
   url: https://www.sekra.com/
   description: Technology platform for the built environment.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sekra
+  slug: sekra
+  matched_by: domain
 - name: ServiceTitan
   url: https://www.servicetitan.com/
   description: Software platform for the trades and home/commercial services.
@@ -385,27 +414,30 @@ companies:
   sector: proptech
   status: ipo
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: smartrent
+  slug: smartrent
+  matched_by: domain
 - name: SolarCycle
   url: https://www.solarcycle.us/
   description: Recycling and materials recovery for solar panels.
   sector: climate
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solarcycle
+  slug: solarcycle
+  matched_by: domain
 - name: Solfacil
   url: https://landing.solfacil.com.br/
   description: Solar financing and platform for installers in Brazil.
   sector: clean-energy
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: solfacil
+  slug: solfacil
+  matched_by: domain
 - name: SPAN
   url: https://www.span.io/
   description: Smart electrical panel for home energy and electrification.
@@ -422,15 +454,17 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vts
+  in_network: true
+  is_api_provider: true
+  slug: vts
+  matched_by: domain
 - name: WiredScore
   url: https://wiredscore.com/
   description: Certification standard for building digital connectivity and smart tech.
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wiredscore
+  slug: wiredscore
+  matched_by: domain
