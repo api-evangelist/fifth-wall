@@ -13,6 +13,17 @@ description: >-
   drive strategic partnerships and distribution. With over $3 billion in assets under management and nearly
   170 portfolio companies, Fifth Wall has backed category leaders including Opendoor, Procore, ServiceTitan,
   Blend, Hippo, SmartRent, and Bilt Rewards.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
