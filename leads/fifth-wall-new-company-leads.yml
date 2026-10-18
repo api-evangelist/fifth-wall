@@ -1,4 +1,32 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: fifth-wall
-leads: []
+leads:
+- name: Knock
+  url: https://www.knockcrm.com/
+  suggested_slug: knock
+  sector: proptech
+  source_vc: fifth-wall
+  source: https://www.fifthwall.com/portfolio
+  stub_created: false
+- name: Lime
+  url: https://www.limebike.com/
+  suggested_slug: limebike-com
+  sector: mobility
+  source_vc: fifth-wall
+  source: https://www.fifthwall.com/portfolio
+  stub_created: false
+- name: Loop
+  url: https://evloop.io/
+  suggested_slug: evloop-io
+  sector: mobility
+  source_vc: fifth-wall
+  source: https://www.fifthwall.com/portfolio
+  stub_created: false
+- name: Notarize
+  url: https://notarize.com/
+  suggested_slug: notarize-com
+  sector: proptech
+  source_vc: fifth-wall
+  source: https://www.fifthwall.com/portfolio
+  stub_created: false

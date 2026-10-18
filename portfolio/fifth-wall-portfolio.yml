@@ -3,9 +3,9 @@ method: searched
 source: https://www.fifthwall.com/portfolio
 summary:
   portfolio_total: 46
-  in_network: 46
-  api_providers: 10
-  missing: 0
+  in_network: 42
+  api_providers: 9
+  missing: 4
   stubs_created: 0
 companies:
 - name: Aurora Solar
@@ -54,9 +54,9 @@ companies:
   sector: fintech
   status: ipo
   source: https://www.fifthwall.com/portfolio
-  slug: blend-labs
+  slug: blend-mortgage
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Blueprint Power
   url: https://www.blueprintpower.com/
@@ -224,10 +224,9 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  slug: knock
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: knock
 - name: Lessen
   url: https://www.lessen.com/
   description: Tech-enabled property renovation, maintenance, and services platform.
@@ -244,10 +243,10 @@ companies:
   sector: mobility
   status: active
   source: https://www.fifthwall.com/portfolio
-  slug: lime
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: lime
+  suggested_slug: limebike-com
 - name: Loft
   url: https://www.loft.com.br/
   description: Digital real estate marketplace in Brazil.
@@ -265,7 +264,7 @@ companies:
   status: active
   source: https://www.fifthwall.com/portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: loggi
   matched_by: domain
 - name: Loop
@@ -274,10 +273,10 @@ companies:
   sector: mobility
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: true
-  is_api_provider: true
-  slug: loop
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: loop
+  suggested_slug: evloop-io
 - name: Navigate
   url: https://www.navigate.ai/
   description: AI platform for real estate and the built environment.
@@ -304,10 +303,10 @@ companies:
   sector: proptech
   status: active
   source: https://www.fifthwall.com/portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: notarize
-  matched_by: name-slug
+  x-name-collision: notarize
+  suggested_slug: notarize-com
 - name: One Raven
   url: https://oneraven.com/
   description: Data and technology platform for the built environment.
