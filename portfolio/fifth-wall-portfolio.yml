@@ -2,10 +2,10 @@ generated: '2026-07-17'
 method: searched
 source: https://www.fifthwall.com/portfolio
 summary:
-  portfolio_total: 46
-  in_network: 42
-  api_providers: 9
-  missing: 4
+  portfolio_total: 49
+  in_network: 43
+  api_providers: 10
+  missing: 6
   stubs_created: 0
 companies:
 - name: Aurora Solar
@@ -245,8 +245,8 @@ companies:
   source: https://www.fifthwall.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: lime
   suggested_slug: limebike-com
+  x-name-collision: lime
 - name: Loft
   url: https://www.loft.com.br/
   description: Digital real estate marketplace in Brazil.
@@ -275,8 +275,8 @@ companies:
   source: https://www.fifthwall.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: loop
   suggested_slug: evloop-io
+  x-name-collision: loop
 - name: Navigate
   url: https://www.navigate.ai/
   description: AI platform for real estate and the built environment.
@@ -305,8 +305,8 @@ companies:
   source: https://www.fifthwall.com/portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: notarize
   suggested_slug: notarize-com
+  x-name-collision: notarize
 - name: One Raven
   url: https://oneraven.com/
   description: Data and technology platform for the built environment.
@@ -467,3 +467,26 @@ companies:
   is_api_provider: false
   slug: wiredscore
   matched_by: domain
+- name: Higgsfield
+  url: https://higgsfield.ai
+  source: https://fifthwall.com/portfolio
+  x-added: '2026-10-18'
+  slug: higgsfield
+  in_network: true
+  is_api_provider: true
+  matched_by: domain
+- name: Kastle AI
+  url: https://kastle.ai
+  source: https://fifthwall.com/portfolio
+  x-added: '2026-10-18'
+  suggested_slug: kastle-ai
+  in_network: false
+  is_api_provider: false
+- name: Polly
+  url: https://pollyex.com
+  source: https://fifthwall.com/portfolio
+  x-added: '2026-10-18'
+  x-name-collision: polly
+  suggested_slug: pollyex-com
+  in_network: false
+  is_api_provider: false

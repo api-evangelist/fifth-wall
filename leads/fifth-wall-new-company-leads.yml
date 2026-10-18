@@ -30,3 +30,17 @@ leads:
   source_vc: fifth-wall
   source: https://www.fifthwall.com/portfolio
   stub_created: false
+- name: Kastle AI
+  url: https://kastle.ai
+  suggested_slug: kastle-ai
+  sector: ''
+  source_vc: fifth-wall
+  source: https://fifthwall.com/portfolio
+  stub_created: false
+- name: Polly
+  url: https://pollyex.com
+  suggested_slug: pollyex-com
+  sector: ''
+  source_vc: fifth-wall
+  source: https://fifthwall.com/portfolio
+  stub_created: false
